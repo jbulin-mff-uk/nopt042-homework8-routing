@@ -1,6 +1,6 @@
-instance(N, Distance, K, Depot) =>
+instance(N, Distances, K, Depots) =>
     N = 7,
-    Distance = {
+    Distances = {
         { 0, 4, 8,10, 7,14,15},
         { 4, 0, 7, 7,10,12, 5},
         { 8, 7, 0, 4, 6, 8,10},
@@ -10,5 +10,5 @@ instance(N, Distance, K, Depot) =>
         {15, 5,10, 8, 7, 5, 0}
     },
     K = 2,
-    Depot = [1, 2].
+    Depots = [2, 5].
     
