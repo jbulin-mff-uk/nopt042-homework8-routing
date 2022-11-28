@@ -9,5 +9,5 @@ Use the constraint `subcircuit` in your model. Running
 ```
 picat routing.pi instance.pi
 ```
-should return the optimal value of `34` and some representation of the route of each vehicle.
+should return the optimal value of `31` and some representation of the route of each vehicle.
 
